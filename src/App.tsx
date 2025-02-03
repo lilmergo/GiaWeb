@@ -13,7 +13,7 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
         <CssBaseline />
-        <Router>
+        <Router basename="/GiaWeb">
           <Navbar />
           <Routes>
             <Route path="/" element={<Home />}></Route>
