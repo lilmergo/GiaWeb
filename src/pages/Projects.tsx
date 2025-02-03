@@ -1,4 +1,4 @@
-import { Box, Button, Card, CardActions, CardContent, CardMedia, Grid2, Typography } from "@mui/material";
+import { Box, Button, Card, CardActions, CardContent, Grid2, Typography } from "@mui/material";
 
 const projects = [
     {
