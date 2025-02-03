@@ -2,7 +2,7 @@ import { Box, Chip, Grid2, Typography } from "@mui/material";
 import { TypeAnimation } from "react-type-animation";
 import P5Sketch from "../components/P5Sketch";
 const links = [
-    { label: "Resume", href: "#resume" },
+    { label: "Resume", href: "/GiaWeb/Gia_Nguyen_Resume.pdf" },
     { label: "GitHub", href: "https://github.com/lilmergo/" },
     { label: "LinkedIn", href: "https://www.linkedin.com/in/hanh-n-446337204/" },
 ];
