@@ -4,7 +4,7 @@ import P5Sketch from "../components/P5Sketch";
 const links = [
     { label: "Resume", href: "/GiaWeb/Gia_Nguyen_Resume.pdf" },
     { label: "GitHub", href: "https://github.com/lilmergo/" },
-    { label: "LinkedIn", href: "https://www.linkedin.com/in/hanh-n-446337204/" },
+    { label: "LinkedIn", href: "https://www.linkedin.com/in/gia-hanh-n-446337204/" },
 ];
 export default function Home() {
     return (
