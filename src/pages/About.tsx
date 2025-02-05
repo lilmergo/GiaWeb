@@ -1,5 +1,6 @@
 import {  Box, Chip} from "@mui/material";
 import P5Eyes from "../components/P5Eyes";
+import P5EyesSmall from "../components/P5EyesSmall";
 
 export default function About() {
     return (
@@ -23,7 +24,14 @@ export default function About() {
             
             <p>I'm a full-stack developer passionate about being involved in every phase of development from conception to deployment, creating intuitive and accessible end-products.</p> 
             
-            <Box sx={{ paddingTop: '5px', paddingBottom:'10px', display:'flex', justifyContent:'center' }}><P5Eyes /></Box>
+            <Box sx={{ paddingTop: '5px', paddingBottom:'10px', justifyContent:'center', display: {
+                sm: 'flex',
+                xs: 'none'
+            } }}><P5Eyes /></Box>
+            <Box sx={{ paddingTop: '5px', paddingBottom:'10px', justifyContent:'center', display: {
+                sm: 'none',
+                xs: 'flex'
+            } }}><P5EyesSmall /></Box>
             <Box>
                 <Chip
                     label='+1 (250) 899-3176'

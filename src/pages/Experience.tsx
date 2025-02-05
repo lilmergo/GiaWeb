@@ -5,10 +5,10 @@ const links2 = ['PHP', 'AWS', 'SQL', 'JavaScript', 'WordPress', 'REST API'];
 export default function Experience() {
     return (
         <Grid2 container spacing={'20px'} sx={{ border: 1, borderTop: 0, height:{xs:'calc(100vh - 39.5px)', sm:'calc(100vh - 91px)'} }} overflow={'hidden'}  >
-            <Grid2 size={2} >
+            <Grid2 size={3} >
                 <P5Background />
             </Grid2>
-            <Grid2 size={10} sx={{
+            <Grid2 size={9} sx={{
                 border:1,
                 borderTop:0,
                 height: '100vh',
@@ -32,22 +32,17 @@ export default function Experience() {
                                 variant='filled'
                                 color='primary'
                                 sx={{
-                                    mx: '5px', '&:hover': {
+                                    mx: '5px', marginBottom: '5px','&:hover': {
                                         border: '1px solid',
                                         borderColor: 'primary.main', 
                                         backgroundColor: 'transparent', 
                                         color: 'primary.main', 
+                                        
                                     },
                                 }}
                             />
                         ))}
-                    <ul>
-                        <li>Contracted to develop a media room reservation system to improve booking processes. Designed and developed the system using React and react-seat-picker for interactive seat selection, integrating Node.js for API endpoints to manage seat availability, booking workflows, and payment processing. Eliminated manual booking errors and streamlined administrative operations</li>
-                        <li>Configured a PostgreSQL database and deployed the application on Heroku, ensuring efficient and reliable data storage and retrieval for the system</li>
-                        <li>Integrated PayPal and Stripe for payment handling, configuring gateways to support credit card transactions. Delivered a secure and efficient booking and payment system</li>
-                        <li>Developed an admin dashboard to manage payment processing, incorporating functionalities to process refunds, manage bookings, and automate email notifications. Optimized administrative tasks and improved operational efficiency</li>
-                        <li>Designed a responsive frontend using Tailwind CSS while adhering to Web Content Accessibility Guidelines (WCAG), delivering an inclusive and adaptive interface optimized for all user viewports</li>
-                    </ul>
+                   <p>Developed a media room reservation system with React and react-seat-picker for interactive booking. Integrated Node.js APIs for seat availability, payment processing (PayPal, Stripe), and workflow automation, eliminating manual errors. Configured a PostgreSQL database, deployed on Heroku, and built an admin dashboard for managing payments, refunds, and notifications. Designed a WCAG-compliant responsive UI with Tailwind CSS.</p>
                     <h2>Web Developer</h2>
                     <p>The Royal Alberta College &ndash; Remote AB</p>
                     <p>June 2024 &ndash; December 2024</p>
@@ -61,7 +56,7 @@ export default function Experience() {
                                 variant='filled'
                                 color='primary'
                                 sx={{
-                                    mx: '5px', '&:hover': {
+                                    mx: '5px', marginBottom: '5px', '&:hover': {
                                         border: '1px solid', 
                                         borderColor: 'primary.main', 
                                         backgroundColor: 'transparent', 
@@ -70,12 +65,7 @@ export default function Experience() {
                                 }}
                             />
                         ))}
-                    <ul>
-                        <li>Developed and maintained two e-learning platforms, integrating WooCommerce and LearnDash to support over 40 courses and drive 12,000+ student enrollments</li>
-                        <li>Optimized AWS architecture with load balancing and auto-scaling to handle high traffic. Directed site migrations achieving seamless transitions with minimal downtime</li>
-                        <li>Built a LearnDash management dashboard to track enrollments, monitor completions, and generate downloadable course certificates and reports. Integrated WordPress API for authentication and implemented SQL queries for efficient data retrieval</li>
-                        <li>Streamlined cross-platform student registration, enrollment, and certification for partner sites through external API integrations using JavaScript, AWS Lambda, and Google Apps Script. Automated processes significantly minimized manual administrative effort, improving efficiency and accuracy</li>
-                    </ul>
+                    <p>Built and maintained two e-learning platforms, integrating WooCommerce & LearnDash to support 40+ courses and 12,000+ enrollments. Optimized AWS architecture with load balancing and auto-scaling for high traffic. Developed a LearnDash management dashboard for enrollment tracking, course completion monitoring, and automated certification. Streamlined cross-platform student registration via API integrations using JavaScript, AWS Lambda, and Google Apps Script, reducing manual workload and improving efficiency.</p>
                 </Box>
             </Grid2>
         </Grid2>

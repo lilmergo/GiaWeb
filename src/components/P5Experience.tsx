@@ -8,7 +8,7 @@ const P5Background: React.FC = () => {
     const border = 20;
 
     const setup = (p5: p5Types, canvasParentRef: Element) => {
-        p5.createCanvas(200, p5.displayHeight - 70).parent(canvasParentRef);
+        p5.createCanvas(305, p5.displayHeight - 70).parent(canvasParentRef);
 
         p5.textFont('Arial'); 
         p5.textSize(30); 
