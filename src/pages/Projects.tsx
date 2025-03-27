@@ -19,8 +19,8 @@ const projects = [
     },
     {
         title: 'Whirlwind Smasher',
-        description: 'A side scroller: feel Grog\'s fists!',
-        githubLink: '#',
+        description: 'A side scroller: feel Grog\'s fists! Winner of BC Hacks 2021.',
+        githubLink: 'https://github.com/JadenBalogh/whirlwind-smasher',
     }
 ];
 
@@ -58,7 +58,7 @@ export default function Projects() {
                                     GitHub
                                 </Button>
                                 {project.behanceLink ?
-                                    <Button size="small" href={project.githubLink} rel="noopener noreferrer"
+                                    <Button size="small" href={project.behanceLink} rel="noopener noreferrer"
                                         target="_blank">
                                         Behance
                                     </Button> : ''}
