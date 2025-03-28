@@ -45,7 +45,7 @@ export default function Experience() {
                     sm:'50px'
                 }, paddingBottom:'120px' }}>
                     <h2>Full Stack AI Trainer</h2>
-                    <p><b>DataAnnotation & Outlier</b> &ndash; Remote Part-Time QC</p>
+                    <p><b>Outlier & DataAnnotation</b> &ndash; Remote Part-Time QC</p>
                     <p>June 2024 &ndash; Present</p>
                     {links0.map((link, index) => (
                             <Chip
