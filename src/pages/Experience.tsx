@@ -44,8 +44,8 @@ export default function Experience() {
                     xs:'15px',
                     sm:'50px'
                 }, paddingBottom:'120px' }}>
-                    <h2>Full Stack AI Trainer</h2>
-                    <p><b>Outlier & DataAnnotation</b> &ndash; Remote Part-Time QC</p>
+                    <h2>Full Stack AI Trainer and Senior Reviewer</h2>
+                    <p><b>Outlier</b> &ndash; Remote QC</p>
                     <p>June 2024 &ndash; Present</p>
                     {links0.map((link, index) => (
                             <Chip
@@ -67,7 +67,7 @@ export default function Experience() {
                                 }}
                             />
                         ))}
-                   <p> I evaluated AI-generated code across full-stack projects using technologies like React, Node.js, and Python. I tested the model’s ability to solve programming tasks, identified edge cases, and debugged output for accuracy and functionality. My feedback focused on improving code clarity, adherence to rubric standards, and overall reliability, contributing to the refinement of multimodal AI systems.</p>
+                    <p style={{ fontWeight: '300' }}>Currently developing and evaluating Next.js React UI according to evolving project guidelines, ensuring production-ready UI, responsive design, cross-browser compatibility, and adherence to WCAG accessibility standards. Provide team members feedback focused on improving code clarity, adherence to rubric standards, and alignment with client expectations.</p>
                     <h2>Full Stack Developer</h2>
                     <p><b>Human&rsquo;s Hub</b> &ndash; Remote QC</p>
                     <p>June 2024 &ndash; December 2024</p>
@@ -91,7 +91,7 @@ export default function Experience() {
                                 }}
                             />
                         ))}
-                   <p>At Human’s Hub, I engineered a full-stack media room reservation system featuring an interactive seat selection UI built with React, a Node.js backend with RESTful APIs, and a PostgreSQL database. I integrated Stripe and PayPal payment gateways using SDKs and webhooks to enable secure real-time transactions, and deployed the system on Heroku with HTTPS, environment variable management, and parameterized queries. I also developed an admin dashboard with JWT authentication, booking and refund management, and automated email notifications via Nodemailer. Testing was conducted across all layers using Jest, React Testing Library, Supertest, and Cypress.</p>
+                   <p style={{ fontWeight: '300' }}>At Human’s Hub, I engineered a full-stack media room reservation system featuring an interactive seat selection UI built with React, a Node.js backend with RESTful APIs, and a PostgreSQL database. I integrated Stripe and PayPal payment gateways using SDKs and webhooks to enable secure real-time transactions, and deployed the system on Heroku with HTTPS, environment variable management, and parameterized queries. I also developed an admin dashboard with JWT authentication, booking and refund management, and automated email notifications via Nodemailer. Testing was conducted across all layers using Jest, React Testing Library, Supertest, and Cypress.</p>
                     <h2>Web Developer</h2>
                     <p><b>The Royal Alberta College</b> &ndash; Remote AB</p>
                     <p>June 2024 &ndash; December 2024</p>
@@ -114,7 +114,7 @@ export default function Experience() {
                                 }}
                             />
                         ))}
-                    <p>At The Royal Alberta College, I developed and maintained two high-traffic e-learning platforms using WordPress, WooCommerce, and LearnDash, supporting over 12,000 student enrollments. I integrated AWS Lambda to automate partner course registration and data syncing, improving registration rates by 40%. I architected scalable AWS infrastructure using EC2, S3, CloudFront, IAM, and Secrets Manager to optimize performance and reliability. Additionally, I built a custom React-based LearnDash dashboard for course tracking and reporting, integrated directly into the WordPress admin via enqueued scripts and optimized SQL queries.</p>
+                    <p style={{ fontWeight: '300' }}>At The Royal Alberta College, I developed and maintained two high-traffic e-learning platforms using WordPress, WooCommerce, and LearnDash, supporting over 12,000 student enrollments. I integrated AWS Lambda to automate partner course registration and data syncing, improving registration rates by 40%. I architected scalable AWS infrastructure using EC2, S3, CloudFront, IAM, and Secrets Manager to optimize performance and reliability. Additionally, I built a custom React-based LearnDash dashboard for course tracking and reporting, integrated directly into the WordPress admin via enqueued scripts and optimized SQL queries.</p>
                 </Box>
             </Grid2>
         </Grid2>

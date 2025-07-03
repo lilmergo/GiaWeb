@@ -1,20 +1,8 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import Sketch from 'react-p5';
 import p5Types from 'p5';
 
 const P5Eyes: React.FC = () => {
-    // Add cleanup effect
-    useEffect(() => {
-        return () => {
-            // Force cleanup of any p5 instances when component unmounts
-            const canvases = document.querySelectorAll('canvas');
-            canvases.forEach(canvas => {
-                if (canvas.parentElement?.classList.contains('react-p5')) {
-                    canvas.remove();
-                }
-            });
-        };
-    }, []);
 
     const setup = (p5: p5Types, canvasParentRef: Element) => {
         p5.createCanvas(500, 150).parent(canvasParentRef);

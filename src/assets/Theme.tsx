@@ -13,7 +13,7 @@ export const theme = createTheme({
         },
     },
     typography: {
-        fontFamily: "'Roboto', sans-serif",
+        fontFamily: "'IBM Plex Mono', sans-serif",
         h1: {
             fontSize: '3rem', // Default font size
             fontWeight: 700,

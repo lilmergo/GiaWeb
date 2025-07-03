@@ -1,4 +1,4 @@
-import { Box, Chip } from "@mui/material";
+import { Box, Chip, Typography } from "@mui/material";
 import P5Eyes from "../components/P5Eyes";
 import P5EyesSmall from "../components/P5EyesSmall";
 import { useState } from "react";
@@ -27,20 +27,28 @@ export default function About() {
 
             <h2>Hi, I'm Gia!</h2>
 
-            <p>I'm a full-stack developer passionate about being involved in every phase of development from conception to deployment, creating intuitive and accessible end-products.</p>
+            <Typography sx={{ fontWeight: 400 }}>
+                I'm a full-stack developer passionate about being involved in every phase of development from conception to deployment, creating intuitive and accessible end-products.
+            </Typography>
 
             <Box sx={{
                 paddingTop: '5px', paddingBottom: '10px', justifyContent: 'center', display: {
                     sm: 'flex',
                     xs: 'none'
                 }
-            }}><P5Eyes /></Box>
+            }}>
+                {/* Use key with unique identifier that changes with route */}
+                <P5Eyes key={`p5-eyes-about-${window.location.pathname}`} />
+            </Box>
             <Box sx={{
                 paddingTop: '5px', paddingBottom: '10px', justifyContent: 'center', display: {
                     sm: 'none',
                     xs: 'flex'
                 }
-            }}><P5EyesSmall /></Box>
+            }}>
+                {/* Also add key to small eyes component */}
+                <P5EyesSmall key={`p5-eyes-small-about-${window.location.pathname}`} />
+            </Box>
             <Box>
                 <Chip
                     component={motion.div}

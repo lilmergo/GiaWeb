@@ -1,3 +1,4 @@
+"use client";
 import { Box, Chip, Grid2, Typography } from "@mui/material";
 import { TypeAnimation } from "react-type-animation";
 import P5Sketch from "../components/P5Sketch";
@@ -23,7 +24,6 @@ export default function Home() {
                                 clickable
                                 variant='filled'
                                 color='primary'
-                                style={{fontWeight: '400'}}
                                 sx={{
                                     m: '5px', '&:hover': {
                                         border: '1px solid', 
@@ -38,11 +38,10 @@ export default function Home() {
 
                     <Typography variant="h1" component="h2"
                         sx={{
-                            fontWeight: '400',
+                            fontWeight: '100',
                             my: '30px'
                         }}>
-                        Gia Hanh|Megan
-                        <br/>Nguyen
+                        Gia Hanh Nguyen
                     </Typography>
                     <TypeAnimation
                         sequence={[
@@ -54,7 +53,7 @@ export default function Home() {
                             1000
                         ]}
                         speed={50}
-                        style={{ fontSize: '1.5em', color: '#000000', fontWeight: '300' }}
+                        style={{ fontSize: '1.5em', color: '#000000', fontWeight: '100' }}
                         repeat={Infinity}
                     />
                 </Box>
